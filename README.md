@@ -2,6 +2,11 @@
 
 API REST desenvolvida em SpringBoot, que consome dados de bandas de um serviço externo e expõe através de endpoits padronizados, com cache em memória para otimização de performance
 
+# Link para a aplicação rodando na AWS:
+- Pode demorar alguns minutos para o ambiente ficar online, utilize-se de paciência:
+- http://isobar-fm-env.eba-ibpzdep3.us-east-1.elasticbeanstalk.com/demo/bands
+- Swagger:
+- http://isobar-fm-env.eba-ibpzdep3.us-east-1.elasticbeanstalk.com/swagger-ui/index.html
 
 # Tecnologias utilizadas:
 - Java 25
