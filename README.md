@@ -8,6 +8,8 @@ API REST desenvolvida em SpringBoot, que consome dados de bandas de um serviço 
 - Spring Boot 4.0.5
 - Spring Web(restTemplate)
 - Spring Cache(@Cachable, in-memory)
+- Springdoc OpenAPI 2.8.6 (Swagger UI)
+- Hibernate Validator
 
   ## EndPoints:
 | Método | URL | Descrição |
@@ -46,3 +48,9 @@ A camada de cache é implementada com `@Cacheable` do Spring.
 Na primeira requisição, os dados são buscados na API externa e 
 armazenados em memória. Nas requisições seguintes, os dados são 
 retornados diretamente do cache, sem nenhuma chamada externa.
+
+## Documentação
+
+A documentação interativa da API está disponível via Swagger UI após subir a aplicação:
+
+http://localhost:8080/swagger-ui/index.html
