@@ -54,3 +54,28 @@ retornados diretamente do cache, sem nenhuma chamada externa.
 A documentação interativa da API está disponível via Swagger UI após subir a aplicação:
 
 http://localhost:8080/swagger-ui/index.html
+
+## Como rodar
+
+### Pré-requisitos
+- Java 
+- Maven
+
+### Executando o projeto
+
+Clone o repositório:
+```bash
+git clone https://github.com/MauricioNestor/isobar.fm.git
+```
+
+Acesse a pasta do projeto:
+```bash
+cd demo
+```
+
+Execute a aplicação:
+```bash
+mvn spring-boot:run
+```
+
+A aplicação sobe em `http://localhost:8080`
